@@ -36,4 +36,5 @@ public class comand {
             return scores;
         }
     }
+
 }
