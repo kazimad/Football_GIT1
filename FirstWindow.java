@@ -9,20 +9,12 @@ import java.util.Scanner;
  * Created by KaZimad on 12.01.14.
  */
 public class FirstWindow  {
-    public static Object means[][];
+
     static Object[]heads={"Команда","Игры","Голы","Поражения","Очки"};  // масив заголовков
+    static Object means[][]={
+    {"Man City","9","19","12","19"},
+    {"Man Utd","10","22","12","23"},
+    {"Burnley","10","10","22","12"},
 
-    public static void scaner (Scanner aScanner) throws IOException {
-
-
-        Scanner list = new Scanner(new File("List.txt")); // проверить, где он.
-        for (int i=0; list.hasNext(); i++){
-            for (int j=0;list.hasNext();j++){  // надо учесть что  изначально было написано for (int j=0;means.lengtu;++j){
-
-
-                means[i][j]=list.next();}
-
-
-        }
-    }
+};
 }
